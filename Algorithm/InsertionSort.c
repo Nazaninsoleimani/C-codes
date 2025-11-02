@@ -1,6 +1,7 @@
 //Insertion Sort Algorithm
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int insertionsort(int numbers[], int size){
 int temp;
@@ -44,3 +45,4 @@ int main() {
     free(arr);
     return 0;
 }
+
